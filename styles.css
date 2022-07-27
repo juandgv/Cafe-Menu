@@ -1,0 +1,84 @@
+body{
+      background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+      font-family: sans-serif;
+      padding: 20px;
+}
+.menu{
+  width: 80%;  /* La propiedad width permite manejar la anchura del elemento puede ser en pixeles o puede ser en porcentaje en este caso ocupa el 80% de su elemento padre el cual es body */
+  background-color: burlywood;
+  margin-left: auto; /*  La propiedad margin permite ajustar el margin invisible a todos los lados del elemento, el elemento auto deja el espacio de margen a cada lado Think of the margin as invisible space around an element */
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  
+}
+h1, h2, p {
+  text-align: center;
+}
+h1,h2{
+  font-family: Impact,serif;
+}
+h1{
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 30px;
+}
+.established{
+  font-style: italic;
+}
+.flavor, .dessert{
+  text-align: left;
+  width: 75%;
+}
+.price{
+  text-align: right;
+  width: 25%;
+ 
+}
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  
+}
+hr{
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+.bottom-line{
+  margin-top: 25px
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+a{
+  color:black;
+}
+a:visited{   /* Esto es un pseudo SELECTOR y sirve para cuando alguien visita el link es decir da click se ponga de otro color  */
+  color:black;
+}
+a:hover{
+  color: brown;
+}
+a:active{
+  color: brown;
+}
+
+.address{
+  margin-bottom: 5px;
+}
+img{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
